@@ -1,0 +1,220 @@
+﻿/*
+Farver:
+
+Blå: #233852
+
+Rød: #d9383a
+
+
+*/
+
+body{
+margin:0px;
+padding:0px;
+color:#233852;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Philosopher', sans-serif;
+	margin:0px;
+}
+
+h1{
+	font-size:30px;
+}
+
+h2{
+	font-size:20px;
+}
+
+p, li{
+	font-family: 'Open Sans', sans-serif;
+	margin:0px;
+}
+
+a, a:visited{
+	color:#233852;
+}
+
+#wrapper{
+
+	width:100%;
+}
+
+header{
+	background-color:#fff;
+	margin:0px auto;
+	width:100%;
+}
+
+#top-logo{
+	width:340px;
+	padding:10px;
+	margin:auto;
+}
+
+#top-logo img{
+	width:340px;
+}
+
+#top-menu{
+	position:-webkit-sticky;
+	position:sticky;
+	top:0px;
+	width:100%;
+	background-color:#fff;
+	text-align:center;
+	border-top:1px solid #233852;
+	border-bottom:1px solid #233852;
+	padding:10px 0px;
+}
+
+#top-menu a{
+	padding:10px 20px;
+	font-size:20px;
+	text-decoration:none;
+	font-family: 'Philosopher', sans-serif;
+	font-weight:600;
+}
+
+#top-menu a:hover{
+background-color:#efefef;
+}
+
+#div-clear{
+	width:100%;
+	
+}
+
+
+section{
+	clear:both;
+	width:100%;
+}
+
+.fullwidth-img{
+	width:100%;
+	height:300px;
+	border-top:1px solid #d9383a;
+	border-bottom:1px solid #d9383a;
+
+}
+
+#fonden .fullwidth-img{
+	background-image:url('img/katte-1.jpg');
+	background-position:50% 40%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	border-top:0px solid #d9383a;
+	border-bottom:1px solid #d9383a;
+}
+
+#tilskud .fullwidth-img{
+	background-image:url('img/katte-4.jpg');
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#information .fullwidth-img{
+	background-image:url('img/katte-3.jpg');
+	background-position:50% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#stoet-os .fullwidth-img{
+	background-image:url('img/katte-2.jpg');
+	background-position:50% 80%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#kontakt .fullwidth-img{
+	background-image:url('img/katte-5.jpg');
+	background-position:50% 20%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#fonden{
+	
+}
+
+article{
+	width:40%;
+	margin:auto;
+	padding:64px 0px;
+	line-height:1.4em;
+}
+
+article h1{
+	margin-bottom:1em;
+	text-align:center;
+	text-decoration:underline;
+	text-decoration-color: #d9383a;
+	-webkit-text-decoration-color: #d9383a;
+}
+
+article h2{
+	margin-bottom:10px;
+}
+
+article p{
+	margin-bottom:0.6em;
+}
+
+
+article ul{
+	margin-top:-5px;
+}
+
+article li{
+	line-height:1.6em;
+}
+
+#fonden article{
+	min-height:00px;
+}
+
+#kontakt article p{
+display:block;
+	float:left;
+}
+
+#kontakt article h2{
+	clear:both;
+}
+
+address{
+	font-style:normal;
+}
+
+
+
+
+@media only screen and (max-width: 1500px) {
+     
+    article{
+	width:55%;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+     
+    article{
+	width:70%;
+	}
+
+	.fullwidth-img{
+	
+	}
+}
+
+
